@@ -32,3 +32,18 @@
 # s="abba"
 # x = isPalindrome(s)
 # print(x)
+
+
+
+# def isPalindrome(s: str) -> bool:
+#         cleans = "".join(filter(str.isalnum,s))
+#         cleans = cleans.lower()
+#         revcleans = cleans[::-1]
+#         if revcleans==cleans:
+#             return True
+#         else:
+#             return False
+
+# s = "A man, a plan, a canal: Panama"
+# print(isPalindrome(s))
+
